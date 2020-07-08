@@ -1,0 +1,45 @@
+{ 
+	// Enable Water Creatures with Eldritch Modifiers
+	"toggleEldritchWaterCreatures": false,
+	// Enable Boss Mobs with Eldritch Modifiers
+	"toggleEldritchBossMobs": false,
+	// Turn off custom names
+	"turnOffNames": false,
+	// Out of 100 Mobs
+	"EliteSpawnRates": 1,
+	// Out of 100 Elites
+	"UltraSpawnRates": 1,
+	// Out of 100 Ultras
+	"EldritchSpawnRates": 1,
+	"disableModifiers": { 
+		"disableAlchemist": false,
+		"disableBeserk": false,
+		"disableYeeter": false,
+		"disableBlinding": false,
+		"disableBurning": false,
+		"disableCloaked": false,
+		"disableDeflector": false,
+		"disableDraining": false,
+		"disableDrowning": false,
+		"disableEnder": false,
+		"disableGhastly": false,
+		"disableGravity": false,
+		"disableLethargic": false,
+		"disableLifesteal": false,
+		"disableOneUp": false,
+		"disableRegen": false,
+		"disableResistant": false,
+		"disableRust": false,
+		"disableSnatcher": false,
+		"disableSpeedster": false,
+		"disableSprinter": false,
+		"disableStarving": false,
+		"disableStormy": false,
+		"disableThorny": false,
+		"disableToxic": false,
+		"disableWeakness": false,
+		"disableWebslinging": false,
+		"disableWithering": false,
+		"disableSniper": false
+	}
+}

@@ -1,0 +1,14 @@
+{ 
+	// Whether nuclear warheads are enabled.
+	"nuclearWarheadEnabled": true,
+	// Y level in the Overworld to get to Space.
+	"spaceTravelYLevel": 1024,
+	// Y level to spawn at when travelling to Space.
+	"spaceSpawnYLevel": 32,
+	// Y level in Space to get back to the Overworld.
+	"overworldTravelYLevel": -58,
+	// Y level to spawn at when returning to the Overworld
+	"overworldSpawnYLevel": 992,
+	// Gravity level in Space
+	"spaceGravity": 0.01
+}
