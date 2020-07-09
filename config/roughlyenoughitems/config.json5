@@ -47,35 +47,47 @@
 		"overlayVisible": true,
 		"cheatingStyle": "GIVE"
 	},
-	"appearance": { 
-		"recipeScreenType": "ORIGINAL",
-		// Declares the appearance of REI windows.
-		"theme": "LIGHT",
-		"layout": { 
-			// Declares the position of the search field.
-			"searchFieldLocation": "BOTTOM_SIDE",
-			// Declares the position of the config button.
-			"configButtonLocation": "LOWER",
-			// Declares whether the craftable filter button is enabled.
-			"enableCraftableOnlyButton": false,
-			// Declares whether the utils buttons are shown.
-			"showUtilsButtons": false
-		},
-		// Declares the appearance of recipe's border.
-		"recipeBorder": "DEFAULT",
-		// Declares whether entry panel is scrolled.
-		"scrollingEntryListWidget": false
-	},
-	"functionality": { 
-		// Declares whether REI should remove the recipe book.
-		"disableRecipeBook": false,
-		// Declares whether subsets is enabled.
-		"isSubsetsEnabled": false
-	},
 	"advanced": { 
+		"filtering": { 
+			"filteringRules": [ 
+				"{rule:{},id:\"roughlyenoughitems:manual\"}"
+			],
+			"filteredStacks": [ 
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_ore\\\",Count:1b}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_block\\\",Count:1b}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby\\\",Count:1b}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_sword\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_pickaxe\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_axe\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_shovel\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_hoe\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_hammer\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_excavator\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_paxel\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_helmet\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_chestplate\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_leggings\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:ruby_boots\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_ore\\\",Count:1b}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_block\\\",Count:1b}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire\\\",Count:1b}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_sword\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_pickaxe\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_axe\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_shovel\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_hoe\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_hammer\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_excavator\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_paxel\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_helmet\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_chestplate\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_leggings\\\",Count:1b,tag:{Damage:0}}\"}",
+				"{\"type\":\"stack\",\"nbt\":\"{id:\\\"more_gems:sapphire_boots\\\",Count:1b,tag:{Damage:0}}\"}"
+			]
+		},
 		"tooltips": { 
 			// Declares whether REI should append mod names to entries.
-			"appendModNames": true,
+			"appendModNames": false,
 			// Declares whether favorites tooltip should be displayed.
 			"displayFavoritesTooltip": false
 		},
@@ -130,10 +142,31 @@
 			// Whether REI should render entry's enchantment glint
 			"renderEntryEnchantmentGlint": true,
 			"newFastEntryRendering": true
-		},
-		"filtering": { 
-			"filteredStacks": [ 
-]
 		}
+	},
+	"appearance": { 
+		"recipeScreenType": "ORIGINAL",
+		// Declares the appearance of REI windows.
+		"theme": "LIGHT",
+		"layout": { 
+			// Declares the position of the search field.
+			"searchFieldLocation": "BOTTOM_SIDE",
+			// Declares the position of the config button.
+			"configButtonLocation": "LOWER",
+			// Declares whether the craftable filter button is enabled.
+			"enableCraftableOnlyButton": false,
+			// Declares whether the utils buttons are shown.
+			"showUtilsButtons": false
+		},
+		// Declares the appearance of recipe's border.
+		"recipeBorder": "DEFAULT",
+		// Declares whether entry panel is scrolled.
+		"scrollingEntryListWidget": false
+	},
+	"functionality": { 
+		// Declares whether REI should remove the recipe book.
+		"disableRecipeBook": false,
+		// Declares whether subsets is enabled.
+		"isSubsetsEnabled": false
 	}
 }

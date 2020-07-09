@@ -1,6 +1,37 @@
 {
 	// Specifies specific recipes to remove from the game.
-	"removeRecipesByIdentifier": [],
+	"removeRecipesByIdentifier": [
+		"more_gems:ruby",
+		"more_gems:ruby_block",
+		"more_gems:ruby_ore",
+		"more_gems:ruby_sword",
+		"more_gems:ruby_pickaxe",
+		"more_gems:ruby_axe",
+		"more_gems:ruby_shovel",
+		"more_gems:ruby_hoe",
+		"more_gems:ruby_hammer",
+		"more_gems:ruby_excavator",
+		"more_gems:ruby_paxel",
+		"more_gems:ruby_helmet",
+		"more_gems:ruby_chestplate",
+		"more_gems:ruby_leggings",
+		"more_gems:ruby_boots",
+		"more_gems:sapphire",
+		"more_gems:sapphire_block",
+		"more_gems:sapphire_ore",
+		"more_gems:sapphire_sword",
+		"more_gems:sapphire_pickaxe",
+		"more_gems:sapphire_axe",
+		"more_gems:sapphire_shovel",
+		"more_gems:sapphire_hoe",
+		"more_gems:sapphire_hammer",
+		"more_gems:sapphire_excavator",
+		"more_gems:sapphire_paxel",
+		"more_gems:sapphire_helmet",
+		"more_gems:sapphire_chestplate",
+		"more_gems:sapphire_leggings",
+		"more_gems:sapphire_boots"
+	],
 	// Item identifiers specified here will prevent any recipe for one of that item.
 	"removeRecipesByItem": []
 }

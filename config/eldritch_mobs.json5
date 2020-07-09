@@ -6,7 +6,7 @@
 	// Turn off custom names
 	"turnOffNames": false,
 	// Out of 100 Mobs
-	"EliteSpawnRates": 1,
+	"EliteSpawnRates": 2,
 	// Out of 100 Elites
 	"UltraSpawnRates": 1,
 	// Out of 100 Ultras

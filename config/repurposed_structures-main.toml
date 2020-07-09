@@ -1,5 +1,5 @@
 [RSDungeonsConfig]
-addDungeonsToModdedBiomes = false
+addDungeonsToModdedBiomes = true
 
 [RSDungeonsConfig.spawnrate]
 badlandsDungeonSpawnrate = 8
@@ -37,7 +37,7 @@ endDungeonMaxHeight = 255
 netherDungeonMaxHeight = 255
 oceanDungeonMaxHeight = 255
 [RSMainConfig.misc]
-addMiscToModdedBiomes = false
+addMiscToModdedBiomes = true
 boulderTiny = true
 boulderGiant = true
 hornedSwampTree = true
@@ -46,24 +46,24 @@ jungleFortressSpawnrate = 32
 silverfishSpawnrateJF = 0.5
 allowSilverfishSpawnerJF = true
 lootChestsJF = true
-addJungleFortressToModdedBiomes = false
+addJungleFortressToModdedBiomes = true
 [RSMainConfig.temples]
 netherPyramidSpawnrate = 32
-addNetherPyramidToModdedBiomes = false
+addNetherPyramidToModdedBiomes = true
 netherTempleSpawnrate = 26
 lootChestsNT = true
-addNetherTempleToModdedBiomes = false
+addNetherTempleToModdedBiomes = true
 badlandsTempleSpawnrate = 20
 lootChestsBT = true
-addBadlandsTempleToModdedBiomes = false
+addBadlandsTempleToModdedBiomes = true
 [RSMainConfig.igloos]
 grassyIglooSpawnrate = 20
-addGrassyIglooToModdedBiomes = false
+addGrassyIglooToModdedBiomes = true
 stoneIglooSpawnrate = 20
-addStoneIglooToModdedBiomes = false
+addStoneIglooToModdedBiomes = true
 [RSMineshaftsConfig]
 lootChestsMS = true
-addMineshaftsToModdedBiomes = false
+addMineshaftsToModdedBiomes = true
 
 [RSMineshaftsConfig.spawnrate]
 birchMineshaftSpawnrate = 40
@@ -110,7 +110,7 @@ lootChestsSH = true
 
 [RSStrongholdsConfig.stonebrick]
 allowStonebrickStronghold = true
-addStonebrickStrongholdToModdedBiomes = false
+addStonebrickStrongholdToModdedBiomes = true
 silverfishSpawnrateSH = 0.8
 stonebrickStrongholdMinHeight = 0
 stonebrickStrongholdMaxHeight = 45
@@ -118,11 +118,11 @@ stonebrickStrongholdSpawnrate = 85
 
 [RSStrongholdsConfig.nether]
 netherStrongholdSpawnrate = 85
-addNetherStrongholdToModdedBiomes = false
+addNetherStrongholdToModdedBiomes = true
 netherStrongholdMinHeight = 33
 netherStrongholdMaxHeight = 36
 [RSVillagesConfig]
-addVillagesToModdedBiomes = false
+addVillagesToModdedBiomes = true
 badlandsVillageSpawnrate = 17
 birchVillageSpawnrate = 28
 darkForestVillageSpawnrate = 28
@@ -131,7 +131,7 @@ swampVillageSpawnrate = 28
 mountainsVillageSpawnrate = 28
 giantTaigaVillageSpawnrate = 26
 [RSWellsConfig]
-addWellsToModdedBiomes = false
+addWellsToModdedBiomes = true
 canHaveBells = true
 
 [RSWellsConfig.spawnrate]

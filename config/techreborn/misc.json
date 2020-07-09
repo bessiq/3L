@@ -31,6 +31,16 @@
       "value": true
     }
   },
+  "resin_basin": {
+    "saptime": {
+      "comment": "How long it takes to harvest one sap (ticks)",
+      "value": 80
+    },
+    "SapCheckTime": {
+      "comment": "How often to check for sap (will check if world time % this number is zero)",
+      "value": 50
+    }
+  },
   "cable": {
     "uninsulatedElectrocutionSound": {
       "comment": "When true an uninsulated cable will create a spark sound when an entity touches it",
