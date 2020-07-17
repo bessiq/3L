@@ -24,5 +24,11 @@
 	// Whether Identity sounds take priority over Player Sounds (eg. Blaze hurt sound when hit).
 	"useIdentitySounds": true,
 	// Whether mobs in the flying entity tag can fly.
-	"enableFlight": true
+	"enableFlight": true,
+	// How long hostility lasts for players morphed as hostile mobs (think: Pigman aggression
+	"hostilityTime": 300,
+	// A list of Advancements required before the player can fly using an Identity.
+	"advancementsRequiredForFlight": [ 
+		"minecraft:end/find_end_city"
+	]
 }
