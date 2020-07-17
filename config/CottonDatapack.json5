@@ -30,7 +30,8 @@
 		"more_gems:sapphire_helmet",
 		"more_gems:sapphire_chestplate",
 		"more_gems:sapphire_leggings",
-		"more_gems:sapphire_boots"
+		"more_gems:sapphire_boots",
+		"blockus:bamboo_planks"
 	],
 	// Item identifiers specified here will prevent any recipe for one of that item.
 	"removeRecipesByItem": []
