@@ -39,28 +39,37 @@ oceanDungeonMaxHeight = 255
 [RSMainConfig.misc]
 addMiscToModdedBiomes = true
 boulderTiny = true
-boulderGiant = true
+boulderGiant = false
 hornedSwampTree = true
 [RSMainConfig.jungleFortress]
 jungleFortressSpawnrate = 32
 silverfishSpawnrateJF = 0.5
-allowSilverfishSpawnerJF = true
 lootChestsJF = true
 addJungleFortressToModdedBiomes = true
-[RSMainConfig.temples]
-netherPyramidSpawnrate = 32
-addNetherPyramidToModdedBiomes = true
-netherTempleSpawnrate = 26
-lootChestsNT = true
-addNetherTempleToModdedBiomes = true
-badlandsTempleSpawnrate = 20
-lootChestsBT = true
-addBadlandsTempleToModdedBiomes = true
+[RSMainConfig.shipwrecks]
+endShipwreckSpawnrate = 23
+addEndShipwreckToModdedBiomes = false
 [RSMainConfig.igloos]
 grassyIglooSpawnrate = 20
 addGrassyIglooToModdedBiomes = true
 stoneIglooSpawnrate = 20
 addStoneIglooToModdedBiomes = true
+[RSTemplesConfig.temples]
+netherWastelandTempleSpawnrate = 26
+addNetherWastelandTempleToModdedBiomes = true
+netherBasaltTempleSpawnrate = 26
+addNetherBasaltTempleToModdedBiomes = true
+netherCrimsonTempleSpawnrate = 26
+addNetherCrimsonTempleToModdedBiomes = true
+netherWarpedTempleSpawnrate = 26
+addNetherWarpedTempleToModdedBiomes = true
+netherSoulTempleSpawnrate = 26
+addNetherSoulTempleToModdedBiomes = true
+[RSTemplesConfig.pyramids]
+netherPyramidSpawnrate = 32
+addNetherPyramidToModdedBiomes = true
+badlandsPyramidSpawnrate = 20
+addBadlandsPyramidToModdedBiomes = true
 [RSMineshaftsConfig]
 lootChestsMS = true
 addMineshaftsToModdedBiomes = true
@@ -103,6 +112,9 @@ taigaMineshaftMaxHeight = 45
 swampAndDarkForestMineshaftMaxHeight = 45
 endMineshaftMaxHeight = 37
 netherMineshaftMaxHeight = 13
+
+[RSMineshaftsConfig.misc]
+barrensIslandsEndMineshafts = false
 [RSStrongholdsConfig]
 strongholdSizeSH = 100.0
 allowExtraSpawnersSH = true
@@ -115,12 +127,21 @@ silverfishSpawnrateSH = 0.8
 stonebrickStrongholdMinHeight = 0
 stonebrickStrongholdMaxHeight = 45
 stonebrickStrongholdSpawnrate = 85
+stonebrickStrongholdChainSpawnrate = 35
 
 [RSStrongholdsConfig.nether]
 netherStrongholdSpawnrate = 85
 addNetherStrongholdToModdedBiomes = true
 netherStrongholdMinHeight = 33
 netherStrongholdMaxHeight = 36
+netherStrongholdChainSpawnrate = 50
+[RSOutpostsConfig.outposts]
+netherBrickOutpostSpawnrate = 21
+addNetherBrickOutpostToModdedBiomes = true
+warpedOutpostSpawnrate = 21
+addWarpedOutpostToModdedBiomes = false
+crimsonOutpostSpawnrate = 21
+addCrimsonOutpostToModdedBiomes = false
 [RSVillagesConfig]
 addVillagesToModdedBiomes = true
 badlandsVillageSpawnrate = 17

@@ -1,4 +1,8 @@
 {
+  "config": {
+    "mod_version": "3.3.1",
+    "rewrite_on_version_update[def: true]": true
+  },
   "improvement": {
     "smaller_armor_offset[def: true]": true,
     "lavafall_particles[def: true]": true,
@@ -279,6 +283,7 @@
     "black_apple[def: true]": true,
     "black_apple_seed[def: true]": true,
     "magma_flower[def: true]": true,
+    "feather_fern[def: true]": true,
     "agave[def: true]": true,
     "barrel_cactus[def: true]": true,
     "nether_cactus[def: true]": true,
@@ -426,6 +431,14 @@
     "spawn_egg_jungle_skeleton[def: true]": true,
     "spawn_egg_skull[def: true]": true
   },
+  "mobs": {
+    "firefly[def: true]": true,
+    "hydrogen_jellyfish[def: true]": true,
+    "naga[def: true]": true,
+    "flying_pig[def: true]": true,
+    "jungle_skeleton[def: true]": true,
+    "skull[def: true]": true
+  },
   "egg_plant": {
     "mob_damage[def: true]": true,
     "player_damage[def: true]": true
@@ -486,7 +499,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -543,7 +559,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -600,7 +619,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -673,7 +695,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -730,7 +755,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         }
@@ -801,7 +829,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -866,6 +897,10 @@
                 "density[def: 0.05]": 0.05,
                 "limit[def: true]": true
               },
+              "feather_fern": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
               "jungle_plant": {
                 "density[def: 0.1]": 0.1,
                 "limit[def: false]": false
@@ -923,6 +958,9 @@
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
             "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
             "name: ruined_temple; offset: -4; type: floor; chance: 10.000000",
             "name: jungle_temple_altar; offset: -2; type: floor; chance: 10.000000",
             "name: jungle_temple_2; offset: -2; type: floor; chance: 10.000000",
@@ -1009,7 +1047,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.45]": 0.45
         },
@@ -1114,7 +1155,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -1215,7 +1259,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.5]": 0.5
         },
@@ -1288,7 +1335,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -1357,7 +1407,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -1422,7 +1475,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -1515,7 +1571,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -1552,6 +1611,10 @@
                 "density[def: 0.1]": 0.1,
                 "limit[def: false]": false
               },
+              "feather_fern": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
               "nether_reed": {
                 "density[def: 0.8]": 0.8,
                 "limit[def: false]": false
@@ -1612,7 +1675,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -1649,6 +1715,10 @@
                 "density[def: 0.1]": 0.1,
                 "limit[def: false]": false
               },
+              "feather_fern": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
               "nether_reed": {
                 "density[def: 0.8]": 0.8,
                 "limit[def: false]": false
@@ -1709,7 +1779,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -1782,7 +1855,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -1851,7 +1927,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -1940,7 +2019,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -2017,7 +2099,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -2106,7 +2191,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -2199,7 +2287,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.5]": 0.5
         },
@@ -2272,7 +2363,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         }
@@ -2400,7 +2494,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -2457,7 +2554,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -2514,7 +2614,10 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         },
@@ -2571,7 +2674,252 @@
             "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
             "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
             "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000"
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "noise_density[def: 0.35]": 0.35
+        }
+      },
+      "cinderscapes": {
+        "blackstone_shales": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "noise_density[def: 0.35]": 0.35
+        },
+        "ashy_shoals": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "noise_density[def: 0.35]": 0.35
+        },
+        "luminous_grove": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "noise_density[def: 0.35]": 0.35
+        },
+        "quartz_canyon": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000"
           ],
           "noise_density[def: 0.35]": 0.35
         }
@@ -2595,6 +2943,7 @@
         "ruby_ore_density[def: 2.5E-4]": 2.5E-4
       },
       "structures_density[def: 0.03125]": 0.03125,
+      "lava_structures_density[def: 0.0078125]": 0.0078125,
       "global_plant_and_structures_density[def: 1.0]": 1.0
     }
   },
@@ -2639,14 +2988,12 @@
       "warped_desert_chance[def: 1.0]": 1.0,
       "sythian_torrids_chance[def: 1.0]": 1.0,
       "embur_bog_chance[def: 1.0]": 1.0
+    },
+    "cinderscapes": {
+      "blackstone_shales_chance[def: 1.0]": 1.0,
+      "ashy_shoals_chance[def: 1.0]": 1.0,
+      "luminous_grove_chance[def: 1.0]": 1.0,
+      "quartz_canyon_chance[def: 1.0]": 1.0
     }
-  },
-  "mobs": {
-    "firefly[def: true]": true,
-    "hydrogen_jellyfish[def: true]": true,
-    "naga[def: true]": true,
-    "flying_pig[def: true]": true,
-    "jungle_skeleton[def: true]": true,
-    "skull[def: true]": true
   }
 }
