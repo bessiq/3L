@@ -3,7 +3,7 @@
     "enableGraves": true,
     "enableGraveLooting": false,
     "minimumOpLevelToLoot": 4,
-    "retrievalType": "ON_STEP",
+    "retrievalType": "ON_BREAK",
     "dropType": "PUT_IN_INVENTORY",
     "xpPercentage": 0.75
   }
