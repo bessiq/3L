@@ -66,11 +66,11 @@
     "gemBiomeBonus": 3
   },
   "ENCHANTMENTS": {
-    "enableQuickening": false,
-    "enableRazorSharpness": false,
-    "enableShulkerBlade": false,
-    "enableUntouchable": false,
-    "enableFasterObsidian": false,
+    "enableQuickening": true,
+    "enableRazorSharpness": true,
+    "enableShulkerBlade": true,
+    "enableUntouchable": true,
+    "enableFasterObsidian": true,
     "amountHalfHeartsQuickening": 10.0,
     "enemySlownessDurationTicksQuickening": 300,
     "razorDamageIncrease": 6.0,
