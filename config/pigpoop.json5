@@ -1,0 +1,11 @@
+{ 
+	// The minimum and maximum time a pig can produce poop(in ticks)
+	"minPoopTime": 6000,
+	"maxPoopTime": 12000,
+	// How many times is a normal poop better than a bone meal?
+	"poopMeal": 2,
+	// How many times is a golden poop better than a bone meal?
+	"goldenPoopMeal": 20,
+	// Infinite golden poop (The pig will always produce golden poop after being fed with golden carrot instead of just one)
+	"infiniteGoldenPoop": false
+}

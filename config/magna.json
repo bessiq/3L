@@ -1,0 +1,8 @@
+{
+  "highlightAirBlocks": false,
+  "fullBlockShapes": false,
+  "enableExtendedHitbox": true,
+  "disableExtendedHitboxWhileSneaking": true,
+  "breakSingleBlockWhenSneaking": true,
+  "individualBlockOutlines": false
+}
