@@ -7,7 +7,7 @@
 	   This is what window title will say.
 	   You can add '{version}' to display your minecraft version.
 	*/
-	"windowTitle": "3L - A Minecraft Modpack",
+	"windowTitle": "3L",
 	/* 
 	   Should window icon be changed?
 	   REMEMBER! You have to provide both 16x16 and 32x32 icon in .png format!
