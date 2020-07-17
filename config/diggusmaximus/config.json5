@@ -10,7 +10,7 @@
 	// Maximum distance from start to mine
 	"maxMineDistance": 10,
 	// Automatically pick up drops
-	"autoPickup": true,
+	"autoPickup": false,
 	// Tool required to excavate
 	"requiresTool": false,
 	// Stop before tool breaks
@@ -22,7 +22,7 @@
 	// Should player get exhaustion
 	"playerExhaustion": true,
 	// Multiply exhaustion when excavating
-	"exhaustionMultiplier": 1.0,
+	"exhaustionMultiplier": 7.0,
 	// Other items to be considered tools ie: "minecraft:stick"
 	"tools": []
 }
