@@ -3,12 +3,13 @@
   "EnableEnderProtection": true,
   "EnablePotionRetention": true,
   "EnableTamedProtection": true,
-  "EnableTreeFeller": true,
-  "EnableVeinMiner": true,
+  "EnableTreeFeller": false,
+  "EnableVeinMiner": false,
   "EnableSoulBound": true,
   "EnableAccuracy": true,
   "EnableInAccuracy": true,
   "EnableArrowChaos": true,
+  "ApplyLootingToAlphaFire": true,
   "UseStandardSoulboundMechanics": false,
   "VeinMinerMaxBreakByLvl": [
     7,
@@ -74,5 +75,6 @@
   ],
   "AutoSmeltBlackList": [
     "minecraft:stone"
-  ]
+  ],
+  "AlphaFireCauseExtraDamage": true
 }
