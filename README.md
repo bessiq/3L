@@ -1,3 +1,3 @@
 # Live. Laugh. Love. (3L)
-### *A Modpack for Minecraft [FABRIC 1.16]*
+### *A Modpack for Minecraft [FABRIC]*
 Coming Soon(er or later) to CurseForge
